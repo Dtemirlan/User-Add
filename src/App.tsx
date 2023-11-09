@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import UserForm from './Components/UserForm.tsx';
 import Users from './Components/Users.tsx';
+import { User } from './Components/types.ts';
+import './App.css'
 
 const App: React.FC = () => {
-    const [users, setUsers] = useState([]);
+    const [users, setUsers] = useState<User[]>([]);
 
-    const addUser = (user) => {
+    const addUser = (user: User) => {
         setUsers([...users, user]);
     };
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import UserItem from './UserItem';
+import '../App.css'
+
 
 interface User {
     name: string;

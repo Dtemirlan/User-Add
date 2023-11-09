@@ -1,4 +1,7 @@
 import React, { useState, ChangeEvent } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css'
+
 
 interface User {
     name: string;

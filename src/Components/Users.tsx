@@ -16,7 +16,7 @@ interface UsersProps {
 
 const Users: React.FC<UsersProps> = ({ users }) => {
     return (
-        <div>
+        <div className="form-container">
             <h2>Пользователи</h2>
             {users.map((user, index) => (
                 <UserItem key={index} user={user} />

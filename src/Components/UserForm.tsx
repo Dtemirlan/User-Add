@@ -50,7 +50,7 @@ const UserForm: React.FC<UserFormProps> = ({ addUser }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="form-container" onSubmit={handleSubmit}>
             <div className="mb-3">
                 <label className="form-label">Имя</label>
                 <input

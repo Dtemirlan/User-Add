@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import UserForm from './UserForm';
-import Users from './Users';
+import UserForm from './Components/UserForm.tsx';
+import Users from './Components/Users.tsx';
 
 const App: React.FC = () => {
     const [users, setUsers] = useState([]);
